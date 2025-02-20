@@ -100,4 +100,7 @@ li::marker {
     flex-direction: column;
     gap: 20px;
   }
+  .heroSection{
+    flex-direction: column-reverse;
+  }
 }
