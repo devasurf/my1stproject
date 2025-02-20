@@ -33,6 +33,16 @@ ul {
   gap: 30px;
 }
 
+ul li a{
+  color: aqua;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  color: greenyellow;
+  text-decoration: underline;
+}
+
 li::marker {
   content: none;
 }
@@ -54,8 +64,13 @@ li::marker {
 }
 
 .name {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: aqua;
+}
+
+.occupation{
+  color: greenyellow;
+  margin-bottom: 20px;
 }
 
 .brief {
@@ -78,7 +93,7 @@ li::marker {
   padding: 7px;
   margin-right: 10px;
   border-radius: 30px;
-  background-color: navajowhite;
+  background-color:greenyellow;
 }
 
 .heroSection {
