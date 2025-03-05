@@ -126,7 +126,14 @@ img{
   }
 }
 
-/* :::::::::::::::::contact me page::::::::::::::::::::::::::::: */
+/* :::::::::::::::::contact me section::::::::::::::::::::::::::::: */
+
+.rule{
+  border: 0;
+  height: 2px;
+  background-color: #333;
+  margin: 20px 0;
+}
 
 .bold{
   color: aqua;
